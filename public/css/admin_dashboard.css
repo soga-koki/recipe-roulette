@@ -1,0 +1,60 @@
+/* 共通のコンテナ */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* ヘッダー部分 */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* ナビゲーションリンク */
+  .header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* テーブルのスタイル */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* ボタンのスタイル */
+  .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-danger {
+    background-color: red;
+  }
+  
+  /* タイトル */
+  h1, h2, h3 {
+    margin-bottom: 20px;
+  }
+  
+  /* レシピとコメントの管理ボタン */
+  .mb-3 a {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+  }
+  

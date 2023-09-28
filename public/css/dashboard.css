@@ -1,0 +1,109 @@
+/* resources/css/app.css or wherever your styles are stored */
+
+/* ダッシュボードページのスタイル */
+
+.header {
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* ログアウトボタンのスタイル */
+.btn-danger {
+    background-color: #e3342f;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-danger:hover {
+    background-color: #c3221a;
+}
+
+.main-content {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+.main-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+}
+
+.main-content p {
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
+
+/* レシピカテゴリリストのスタイル */
+.main-content {
+    margin: 2rem 0;
+}
+
+.main-content h2 {
+    font-size: 1.5rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.recipe-category-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.recipe-category-list li {
+    list-style: none;
+}
+
+.recipe-category-list a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.recipe-image {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.recipe-label {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+
+/* 追加のスタイル */
+.header {
+    display: flex;
+    align-items: center; /* インライン要素を中央揃えにする */
+    justify-content: space-between; /* タイトルとボタンの間にスペースを最大化する */
+}
+
+.header h1 {
+    flex-grow: 1; /* 利用可能な空間を埋める */
+    margin-right: 5rem; /* 右のボタンとの間に少しスペースを追加 */
+}
+
+/* 全てのliタグのリストマーカーを取り除く */
+li {
+    list-style-type: none;
+}

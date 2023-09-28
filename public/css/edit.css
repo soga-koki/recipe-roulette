@@ -1,0 +1,53 @@
+/* ページ全体 */
+.container {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* ポップなフォント */
+    background-color: #f9f9f9; /* 明るい背景 */
+  }
+  
+  /* タイトル */
+  .title {
+    font-size: 2.5em;
+    color: #ff4500; /* 明るい色 */
+    text-shadow: 2px 2px 4px #000000; /* 影をつける */
+  }
+  
+  /* フォーム */
+  .form {
+    background-color: #ffffff; /* 白背景 */
+    border-radius: 12px; /* 角を丸く */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 影をつける */
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* ラベル */
+  .form-label {
+    font-size: 1.2em;
+    color: #4CAF50; /* 明るい緑色 */
+  }
+  
+  /* テキストエリア */
+  .form-textarea {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #4CAF50; /* 明るい緑色 */
+    border-radius: 8px; /* 角を丸く */
+  }
+  
+  /* ボタン */
+  .btn {
+    background-color: #ff4500; /* 明るいオレンジ */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px; /* 角を丸く */
+    font-size: 1.1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 影をつける */
+    cursor: pointer;
+    transition: all 0.3s ease; /* クリック時のアニメーション */
+  }
+  
+  .btn:hover {
+    background-color: #ff6347; /* ホバー時は色を少し暗く */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* 影を大きく */
+  }
+  

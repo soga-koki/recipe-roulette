@@ -1,0 +1,94 @@
+/* スタイルシート（例: public/css/app.css）*/
+
+/* コンテナ */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+/* ヘッダー部分 */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.header nav li {
+    font-size: 1rem;
+}
+
+.header nav li a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.header nav li a:hover {
+    background: #333;
+    color: #fff;
+}
+
+/* メインコンテンツ部分 */
+.main-content {
+    margin: 2rem 0;
+}
+
+.main-content h2 {
+    font-size: 1.5rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.recipe-category-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.recipe-category-list li {
+    list-style: none;
+}
+
+.recipe-category-list a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.recipe-image {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.recipe-label {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
