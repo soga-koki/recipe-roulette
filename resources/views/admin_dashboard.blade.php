@@ -27,7 +27,7 @@
                     <td>{{ $user->role }}</td>
                     <td><a href="{{ route('admin.users.edit', $user) }}">編集</a></td>
                     <td>
-                        <form action="{{ route('admin.users.destroy', $user) }}" method="POST">
+                        <form action="{{ route('admin.users.destroy', $user) }}" method="POST" onsubmit="return confirm('本当に削除しますか？');">
                             @csrf
                             @method('DELETE')
                             <button type="submit">削除</button>
@@ -63,7 +63,7 @@
                     <td>{{ $recipe->user->name }}</td>
                     <td><a href="{{ route('admin.recipes.edit', $recipe) }}">編集</a></td>
                     <td>
-                        <form action="{{ route('admin.recipes.destroy', $recipe) }}" method="POST">
+                        <form action="{{ route('admin.recipes.destroy', $recipe) }}" method="POST" onsubmit="return confirm('本当に削除しますか？');">
                             @csrf
                             @method('DELETE')
                             <button type="submit">削除</button>
@@ -94,7 +94,7 @@
                     <td>{{ $comment->recipe_id }}</td>
                     <td><a href="{{ route('admin.comments.edit', $comment) }}">編集</a></td>
                     <td>
-                        <form action="{{ route('admin.comments.destroy', $comment) }}" method="POST">
+                        <form action="{{ route('admin.comments.destroy', $comment) }}" method="POST" onsubmit="return confirm('本当に削除しますか？');">
                             @csrf
                             @method('DELETE')
                             <button type="submit">削除</button>
