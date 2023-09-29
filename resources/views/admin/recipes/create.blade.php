@@ -16,7 +16,13 @@
 
         <div class="mb-3">
             <label for="category" class="form-label">カテゴリー</label>
-            <input type="text" class="form-control" id="category" name="category" required>
+            <select class="form-control" id="category" name="category" required>
+                <option value="">--選択してください--</option>
+                <option value="そば">そば</option>
+                <option value="うどん">うどん</option>
+                <option value="パスタ">パスタ</option>
+                <option value="どんぶり">どんぶり</option>
+            </select>
         </div>
 
         <div class="mb-3">
